@@ -7,6 +7,8 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 
 - Además, con un modelo HRNet se extraen 16 keypoints del esqueleto de cada jugador. Permite estudio de la técnica de cada jugador, posturas, identificación de golpeo, fatiga del jugador, etc.
 
+![](/imagenesqueleto.jpg)
+
 - A continuación, con clusterizaciones K-Means y herramientas de OpenCV se crea un modelo para identificar qué jugador está en la pista inferior, cual en la superior y cuando se producen cambios de pista, gracias al color de su vestimenta.
 
 - Por último, con los keypoints de los jugadores y las HOG features de sus imágenes se ha intentado generar un clasificador que determine el golpeo que está realizando cada jugador en cada frame. En proceso.
@@ -18,5 +20,5 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 - Identificar y hacer tracking del volante para situar momento del golpeo y estudiar trayectorias. Dificultad: Difícil.
 
 
-![](/ComputerVisionSportsBadminton/imagenesqueleto.jpg)
-Format: ![Alt Text](url)
+
+
