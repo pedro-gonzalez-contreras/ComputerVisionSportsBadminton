@@ -1,1 +1,1 @@
-# ComputerVisionSportsBadminton
+# Computer Vision Sports Badminton
