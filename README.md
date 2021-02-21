@@ -16,3 +16,7 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 - Etiquetar BoundingBoxes propias para mejorar precision del modelo de Object Detection con dos clases: Bottom Player y Top Player. Dificultad: Fácil.
 - Obtener la puntuación del partido. Usar imágenes y keypoints de los primeros frames de cada punto para identificar jugador que saca y ganador del punto anterior. Dificultad: Media.
 - Identificar y hacer tracking del volante para situar momento del golpeo y estudiar trayectorias. Dificultad: Difícil.
+
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
