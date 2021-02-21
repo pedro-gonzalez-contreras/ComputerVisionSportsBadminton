@@ -15,4 +15,4 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 - Etiquetar imágenes propias para identificar las esquinas de la pista (Automatizar Hodografía) y otros elementos de la imagen (Postes,árbitro,etc). Dificultad: Fácil.
 - Etiquetar BoundingBoxes propias para mejorar precision del modelo de Object Detection con dos clases: Bottom Player y Top Player. Dificultad: Fácil.
 - Obtener la puntuación del partido. Usar imágenes y keypoints de los primeros frames de cada punto para identificar jugador que saca y ganador del punto anterior.Dificultad: Media.
-- Identificar el volante y hacer tracking del objeto para situar momento del golpeo y estudiar trayectorias. Dificultad: Difícil.
+- Identificar y hacer tracking del volante para situar momento del golpeo y estudiar trayectorias. Dificultad: Difícil.
