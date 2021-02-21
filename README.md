@@ -11,7 +11,7 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 
 - Por último, con los keypoints de los jugadores y las HOG features de sus imágenes se ha intentado generar un clasificador que determine el golpeo que está realizando cada jugador en cada frame.
 
-# Mejoras al proyecto:
+## Mejoras al proyecto:
 - Etiquetar imágenes propias para identificar las esquinas de la pista (Automatizar Hodografía) y otros elementos de la imagen (Postes,árbitro,etc). Dificultad: Fácil.
 - Etiquetar BoundingBoxes propias para mejorar precision del modelo de Object Detection con dos clases: Bottom Player y Top Player. Dificultad: Fácil.
 - Obtener la puntuación del partido. Usar imágenes y keypoints de los primeros frames de cada punto para identificar jugador que saca y ganador del punto anterior.Dificultad: Media.
