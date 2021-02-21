@@ -18,5 +18,5 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 - Identificar y hacer tracking del volante para situar momento del golpeo y estudiar trayectorias. Dificultad: Difícil.
 
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/imagenesqueleto.png)
 Format: ![Alt Text](url)
