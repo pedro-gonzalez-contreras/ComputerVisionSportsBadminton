@@ -7,12 +7,12 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 
 - Además, con un modelo HRNet se extraen 16 keypoints del esqueleto de cada jugador. Permite estudio de la técnica de cada juagdor, posturas, identificación de golpeo, fatiga del jugador, etc.
 
-- A continuación, con clusterizaciones K-Means y herramientas de OpenCV se crea un modelo para identificar qué jugador está en la pista inferior y cual en la superior y cuando se producen cambios de pista gracias al color de su vestimenta.
+- A continuación, con clusterizaciones K-Means y herramientas de OpenCV se crea un modelo para identificar qué jugador está en la pista inferior, cual en la superior y cuando se producen cambios de pista, gracias al color de su vestimenta.
 
-- Por último, con los keypoints de los jugadores y las HOG features de sus imágenes se ha intentado generar un clasificador que determine el golpeo que está realizando cada jugador en cada frame.
+- Por último, con los keypoints de los jugadores y las HOG features de sus imágenes se ha intentado generar un clasificador que determine el golpeo que está realizando cada jugador en cada frame. En proceso
 
 ## Mejoras al proyecto:
 - Etiquetar imágenes propias para identificar las esquinas de la pista (Automatizar Hodografía) y otros elementos de la imagen (Postes,árbitro,etc). Dificultad: Fácil.
 - Etiquetar BoundingBoxes propias para mejorar precision del modelo de Object Detection con dos clases: Bottom Player y Top Player. Dificultad: Fácil.
-- Obtener la puntuación del partido. Usar imágenes y keypoints de los primeros frames de cada punto para identificar jugador que saca y ganador del punto anterior.Dificultad: Media.
+- Obtener la puntuación del partido. Usar imágenes y keypoints de los primeros frames de cada punto para identificar jugador que saca y ganador del punto anterior. Dificultad: Media.
 - Identificar y hacer tracking del volante para situar momento del golpeo y estudiar trayectorias. Dificultad: Difícil.
