@@ -3,7 +3,7 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 
 - El sistema es capaz de identificar los frames en donde el partido está en juego, separandolos de repeticiones, calentamientos previos, descansos entre punto y punto, etc. Modelos VGG16 y k-Nearest Neighbors (KNN). Accuracy 95% Recall Clase Juego 99%.
 
-- Posteriormente, gracias a un modelo Yolo v3 pre-entrenado se extraen las Bounding Boxes de cada jugador en cada frame y se determina su posición en la pista con una hodografía. Posibilidad de crear mapas de calor, transciones habituales del jugador, etc.
+- Posteriormente, gracias a un modelo Yolo v3 pre-entrenado se extraen las Bounding Boxes de cada jugador en cada frame y se determina su posición en la pista con una homografía. Posibilidad de crear mapas de calor, transciones habituales del jugador, etc.
 
 - Además, con un modelo HRNet se extraen 16 keypoints del esqueleto de cada jugador. Permite estudio de la técnica de cada juagdor, posturas, identificación de golpeo, fatiga del jugador, etc.
 
