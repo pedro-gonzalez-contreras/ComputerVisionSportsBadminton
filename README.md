@@ -7,7 +7,10 @@ Herramienta observacional para análisis de partidos deportivos completamente au
 
 - Además, con un modelo HRNet se extraen 16 keypoints del esqueleto de cada jugador. Permite estudio de la técnica de cada jugador, posturas, identificación de golpeo, fatiga del jugador, etc.
 
-![](/imagenesqueleto.jpg)
+<p align="center">
+<img src="imagenesqueleto.jpg" width="150">
+ </p>
+
 
 - A continuación, con clusterizaciones K-Means y herramientas de OpenCV se crea un modelo para identificar qué jugador está en la pista inferior, cual en la superior y cuando se producen cambios de pista, gracias al color de su vestimenta.
 
