@@ -1,5 +1,5 @@
 # Computer Vision Sports Badminton
-Herramienta observacional para análisis de partidos deportivos completamente automatizada gracias a herramientas de Computer Vison, Machine Learning y Deep Learning. El sistema ha sido entrenado específicamente para partidos de Badminton.
+Modelo observacional para análisis de partidos deportivos completamente automatizado gracias a herramientas de Computer Vison, Machine Learning y Deep Learning. El sistema ha sido entrenado específicamente para partidos de Badminton.
 
 - El sistema es capaz de identificar los frames en donde el partido está en juego, separandolos de repeticiones, calentamientos previos, descansos entre punto y punto, etc. Modelos VGG16 y k-Nearest Neighbors (KNN). Accuracy 95% Recall Clase Juego 99%.
 
