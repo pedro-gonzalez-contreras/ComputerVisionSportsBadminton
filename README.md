@@ -14,7 +14,7 @@ Modelo observacional para análisis de partidos deportivos completamente automat
 
 - A continuación, con clusterizaciones K-Means y herramientas de OpenCV se crea un modelo para identificar qué jugador está en la pista inferior, cual en la superior y cuando se producen cambios de pista, gracias al color de su vestimenta.
 
-- Por último, con los keypoints de los jugadores y las HOG features de sus imágenes se ha intentado generar un clasificador que determine el golpeo que está realizando cada jugador en cada frame. En proceso.
+- Por último, con los keypoints del esqueleto de los jugadores y las HOG features de sus imágenes se ha intentado generar un clasificador que determine el golpeo que está realizando cada jugador en cada frame. En proceso.
 
 ## Mejoras al proyecto:
 - Etiquetar imágenes propias para identificar las esquinas de la pista (Automatizar homografía) y otros elementos de la imagen (Postes, árbitro, etc). Dificultad: Fácil.
