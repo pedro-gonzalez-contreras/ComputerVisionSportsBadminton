@@ -603,7 +603,7 @@ def generatebigdataset(nombrevideo,weightpista=861, heightpista=471):
     #Marcar las primeras imagenes de cada punto
     dfgrande['inicio_punto'] = 0
     dfgrande['inicio_punto'][0] = 1
-    for x in range(1,len(dfgrande)):
+    for x in range(1,len(dfgrande)-2):
         if (dfgrande['segundo'][x]-dfgrande['segundo'][x-1])> 2.0 and (dfgrande['segundo'][x+2]-dfgrande['segundo'][x]) <= 0.41 :
             dfgrande['inicio_punto'][x] = 1
     dfgrande.to_csv(path + '/'+'DSImagenesBBoxesTiemposPuntuacion' + nombrevideo + '.csv', index=False, encoding='utf-8')
